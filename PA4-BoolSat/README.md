@@ -70,7 +70,8 @@ The input to your program will be a boolean expression, i.e. the if or while sta
 
 ## The BoolSAT Library
 You are provided the file boolsat.jar which can be found (along with the source code
-and documentation) at [this repository](TBD). Given boolean logic expressions we can
+and documentation) at [https://github.com/UACS210Spring2018/PA4-BoolSat-Start]. 
+Given boolean logic expressions we can
 construct trees to represent how that expression would be evaluated. See PA4Main.java
 to see how this is done; here is an example:
 
