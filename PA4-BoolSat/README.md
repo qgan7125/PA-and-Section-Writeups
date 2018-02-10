@@ -236,7 +236,14 @@ which public test cases were passed/failed.
 
 ## Getting Started
 ### JUnit Background Information 
-Writing software is hard. Plain an simple, programming is not easy. Over the past 70 years there have been many methods developed to make the process of writing code easier. Once such technique is called **Test-Driven Development**. The idea is simple: you know what you want your code to do, but you don't know how to write code to do it. So start by writing the test cases, then write code that makes those test cases pass. Test-Driven Development is used in industry, and you will do it in CS335. In Java, JUnit is a framework that allows us to write test cases with ease and automate the testing process.
+Writing software is hard. Plain and simple, programming is not easy. Over the past 
+70 years there have been many methods developed to make the process of writing code 
+easier. Once such technique is called **Test-Driven Development**. The idea is 
+simple: you know what you want your code to do, but you don't know how to write 
+code to do it. So start by writing the test cases, then write code that makes those 
+test cases pass. Test-Driven Development is used in industry, and you will do it 
+in CS335. In Java, JUnit is a framework that allows us to write test cases with 
+ease and automate the testing process.
 
 You are not doing Test-Driven Development (you can if you want, but that is not the purpose of this course). Our goal is to introduce you to JUnit to help you test the code you write better.
 
