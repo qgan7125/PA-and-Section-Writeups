@@ -266,7 +266,7 @@ This is the process you need to follow when writing test cases:
 
 [The JUnit Assert class documentation](https://junit.org/junit4/javadoc/latest/org/junit/Assert.html) lists all of the assert methods that can be used to test expected output vs actual output. Some of the most useful are `assertTrue()`, `assertFalse()`, `assertEquals()`, `assertNull()`, etc. 
 
-### Exmple
+### Example
 For example, the Java standard library has a Math class to do various math operations. Let's apply this testing process to test the math class. 
 
  1. (Thinking) The `Math.min(int a, int b)` method should return the smaller of the two input numbers. 
