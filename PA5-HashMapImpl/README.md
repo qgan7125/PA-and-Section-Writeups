@@ -1,4 +1,4 @@
-# PA5-HashMapImpl-Key (Status: Draft 2/17/18 2:45pm)
+# PA5-HashMapImpl-Key (Status: Posted 2/17/18 3:15pm)
 
 Writeup for PA5.
 
