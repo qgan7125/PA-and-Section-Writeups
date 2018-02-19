@@ -5,7 +5,7 @@ Writeup for PA5.
 
 ## Learning Objectives
 
-The goal of this assignment is to use two or more datastructures
+The goal of this assignment is to use two or more data structures
 in a coordinated way to solve a problem.
 
 The problem to be solved in this assignment is to implement a 
