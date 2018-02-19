@@ -79,7 +79,7 @@ hash map implementation is writing a good (and appropriate) hash function.
 It should spread out values evenly based on different input values 
 and needs to always produce the same value if the same element is given to it.
 
-There are multiple ways to implement a hash map, here are a three:
+There are multiple ways to implement a hash map, here are three:
   * An array that contains a linked list for each bucket
   * A linked list that contains a linked list for each bucket (2d linked list)
   * An array that contains an array for each bucket (a 2d array)
