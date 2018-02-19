@@ -76,22 +76,24 @@ and Step Return buttons inorder to become familiar with their functionality. Exp
 by moving breakpoints and seeing the effects. 
 
 	How can you tell what line is being executed? 
+	
 	What is the purpose of the Step Into button how does the Step Into button differ from the Resume button?
 	
 3. You are able to find the values of the variables in the Variables window. By stepping through 
 the program and seeing which variables are present at each step, answer the following questions. 
 
 	What variables are visible when you are in the sum method? 
+	
 	What variables are visible in the diceRollSum methods? 
 
 4. From the debug window, terminate and relaunch the debugging process. 
-
+```
 	What are the values of N, X, sofar and i?  
-
+```
 5. Step through to the first call to sum. 
-
+```
 	What are the values of nums, sum and n? 
-
+```
 Concluding questions:
 
 	What does the N parameter represent?
