@@ -63,7 +63,7 @@ public class Section5Main {
 
 ### Review Process
 You will be stepping through problem 9 from the midterm. This problem is a recursive dice rolling 
-combination and sumation problem. As you step through this problem, you will be answering a series 
+combination and summation problem. As you step through this problem, you will be answering a series 
 of questions that you will need to show your SL the correct answers to. 
 
 1. Take the steps from the article to launch the debugging process. Make sure that the Debug and 
