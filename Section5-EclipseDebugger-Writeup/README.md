@@ -102,4 +102,4 @@ Concluding questions:
 	
 	What does so far represent? 
 	
-	Consider the method call diceRollSum(3, 6). Which sum combination will be returned? 
+	Consider the method call diceRollSum(3, 6, new ArrayList<Integer>()). Which sum combination will be returned? 
