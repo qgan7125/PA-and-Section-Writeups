@@ -67,7 +67,7 @@ combination and summation problem. As you step through this problem, you will be
 of questions that you will need to show your SL the correct answers to. 
 
 1. Take the steps from the article to launch the debugging process. Make sure that the Debug and 
-Variables windows are open as you will need them to answer the next few questions.If you do not 
+Variables windows are open as you will need them to answer the next few questions.  If you do not 
 see them, go to Window show view and find them. 
 
 2. Place a breakpoint on line 16 and 29 and run the program. Move through a few steps of the program 
