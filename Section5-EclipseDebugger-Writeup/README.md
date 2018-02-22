@@ -100,6 +100,6 @@ Concluding questions:
 
 	What does the X parameter represent?
 	
-	What does so far represent? 
+	What does sofar represent? 
 	
 	Consider the method call diceRollSum(3, 6, new ArrayList<Integer>()). Which sum combination will be returned? 
