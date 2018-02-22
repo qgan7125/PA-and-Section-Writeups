@@ -219,7 +219,7 @@ Decomposition
 * Points will be taken off for copy, pasted, and edited code that
   should have been encapsulated in a method.
 
-* This program will use two to three source files in addition to the 
+* This program will use two or more source files in addition to the 
   source file for the JUnit tests.  Each of these files should be (<200 lines).
 
 * Each static method should be less than 30 lines.  This INCLUDES
