@@ -1,4 +1,4 @@
-# PA5-HashMapImpl-Key (Status: Posted 2/17/18 3:15pm)
+# PA5-HashMapImpl-Key (Status: Posted 2/17/18 3:15pm, Edited Feb 21 8pm)
 
 Writeup for PA5.
 
@@ -55,7 +55,6 @@ For grading, we will look for unit test cases for at least the following:
   * containsKey
   * keySet
   * collisions, see below
-  * printTable, see below
 
 ## Hash Map Implementation
 
