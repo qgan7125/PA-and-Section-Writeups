@@ -218,7 +218,8 @@ and the JUnit tests.
 Decomposition
 * Should carefully select data structures that implement the
   required MyHashMap functionality.  You cannot use the provided
-  Java HashMap implementation or any other HashMap implementation
+  Java HashMap implementation or HashSet implementation 
+  or any other HashMap implementation
   written by someone else.
 
 * Points will be taken off for copy, pasted, and edited code that
