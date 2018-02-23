@@ -1,4 +1,4 @@
-# PA5-HashMapImpl-Key (Status: Posted 2/17/18 3:15pm, Edited Feb 21 8pm, Edited Feb 22 4:40pm)
+# PA5-HashMapImpl-Key (Status: Posted 2/17/18 3:15pm, Edited Feb 21 8pm, Edited Feb 22 4:40pm, Edited Feb 23 8:30am)
 
 Writeup for PA5.
 
@@ -77,13 +77,20 @@ hash map implementation is writing a good (and appropriate) hash function.
 It should spread out values evenly based on different input values 
 and needs to always produce the same value if the same element is given to it.
 
-There are multiple ways to implement a hash map, here are three:
+In general, there are multiple ways to implement a hash map. Here are three:
   * An array that contains a linked list for each bucket
   * A linked list that contains a linked list for each bucket (2d linked list)
   * An array that contains an array for each bucket (a 2d array)
 
-You can use one of these methods or use a different one to implement
-your HashMap, which should be called MyHashMap.
+However, since you are implementing a generic hash table in Java
+and generics are problematic in arrays 
+(https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html),
+we strongly recommend you use an ArrayList of linked lists.  Those linked
+lists can be LinkedLists, ArrayLists, or your own linked list implementation
+where the key,value pairs link to each other.
+
+
+Your hash table implementation should be called MyHashMap.
 
 ### A Generic MyHashMap class
 
