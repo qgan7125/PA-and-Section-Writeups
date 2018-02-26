@@ -125,23 +125,29 @@ On the same Three object call thrice.
 
 ### Review Questions:
 
-```
-5) Which class is at the top of the inheritance hierarchy? 
+#### Q5 
 
-6) Imagine the twice method in the One class did not call name() and appeared as the code below. 
+```
+Which class is at the top of the inheritance hierarchy? 
+```
+
+#### Q6 
+
+```
+Imagine the twice method in the One class did not call name() and appeared as the code below. 
 
 	public void twice() {
 		super.twice();
 		name(); 
 	}
 
-   Why would this version of twice() be poor decomposition? 
+Why would this version of twice() be poor decomposition? 
+```
 
+#### Q7 
+
+```
 7) Can Two's thrice method call super.thrice()? Why or why not? 
 ```
 
-	
-
-
-	
 
