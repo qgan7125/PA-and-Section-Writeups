@@ -201,7 +201,8 @@ Total # of conflicts: 7
 
 ## **EXTRA CREDIT**
 If you provide a better hash function than the one listed above, 
-meaning that you have fewer collisions on the full flight database than 
+meaning that you have fewer collisions (and/or a better distribution)
+on the full flight database than 
 the provided hash function, you will be able to receive 5 points of 
 extra credit on PA5.  Provide your README.md file with example 
 DEBUG output to show that your hash function is better.  Also explain 
