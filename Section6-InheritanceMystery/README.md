@@ -138,7 +138,6 @@ Imagine the twice method in the One class did not call name() and appeared as th
 
 	public void twice() {
 		super.twice();
-		name(); 
 	}
 
 Why would this version of twice() be poor decomposition? 
