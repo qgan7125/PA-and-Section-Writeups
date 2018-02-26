@@ -147,7 +147,7 @@ Why would this version of twice() be poor decomposition?
 #### Q7 
 
 ```
-7) Can Two's thrice method call super.thrice()? Why or why not? 
+Can Two's thrice method call super.thrice()? Why or why not? 
 ```
 
 
