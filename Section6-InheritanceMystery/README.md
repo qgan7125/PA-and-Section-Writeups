@@ -10,7 +10,7 @@ slides from the Inheritance lectures or talk with your SL.
 
 ## Assignment
 You will be stepping through function calls on objects from the Classes 
-One, Two, Three and Four. Do NOT assume they inherit from one another in 
+One, Two, Three, and Four. Do NOT assume they inherit from one another in 
 numerical order. Look at what objects are created and what methods exist 
 in those classes to answer the method call questions. You can write your 
 answers to the questions in a basic text file in Eclipse or any text editor 
@@ -102,7 +102,7 @@ Create a One object and call twice.
 
 ```
 
-		Two two = new Two(); 
+		Two two = new One(); 
 		two.twice(); 
 
 ```
@@ -130,7 +130,7 @@ Which class is at the top of the inheritance hierarchy?
 
 Why is the twice method in the One class poor decomposition? 
 
-Can Two's thrice method call super.thrice()? Why? 
+Can Two's thrice method call super.thrice()? Why or why not? 
 ```
 
 	
