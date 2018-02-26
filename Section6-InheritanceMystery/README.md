@@ -1,4 +1,4 @@
-# Section6 - Inheritance Mystery 
+# Section 6 - Inheritance Mystery 
 
 ## Introduction 
 The goal of today's section is to become more familiar with inheritance. 
@@ -12,12 +12,10 @@ slides from the Inheritance lectures or talk with your SL.
 You will be stepping through function calls on objects from the Classes 
 One, Two, Three and Four. Do NOT assume they inherit from one another in 
 numerical order. Look at what objects are created and what methods exist 
-in those classes to answer the method call questions. Place your answers to 
-the method call questions in a text file to be uploaded to Gradescope. You 
-can write in a basic text file in Eclipse or any text editor of your choice. 
-
-For the review questions, write them down on a sheet of paper or type them 
-up to show your SL.  
+in those classes to answer the method call questions. You can write your 
+answers to the questions in a basic text file in Eclipse or any text editor 
+of your choice or you can write the answers down on a sheet of paper. Once
+you have completed all questions, show them to your SL.  
 
 Look over the following classes and answer the questions below. 
 
@@ -136,3 +134,7 @@ Can Two's thrice method call super.thrice()? Why?
 ```
 
 	
+
+
+	
+
