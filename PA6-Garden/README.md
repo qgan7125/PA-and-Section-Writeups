@@ -9,9 +9,9 @@ two-dimensional arrays.
 
 
 What is a class hierarchy you ask? Read about it on [Wikipedia](https://en.wikipedia.org/wiki/Class_hierarchy)
-The class diagram you will be submitted will be a simplified version of the UML
+The class diagram you will be submitting will be a simplified version of the UML
 class diagrams.  There are many resources on the internet for UML class diagrams.
-See all the 2/28/18 class notes for what is expected in this class for PA6.
+See all the 2/28/18 class notes for the format expected in this class for PA6.
 
 ## Garden Simulation
 
