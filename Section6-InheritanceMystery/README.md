@@ -57,7 +57,7 @@ public class Three extends Two {
 
 	public void thrice() {
 		super.twice(); 
-		System.out.println("Troise Tres Three");
+		System.out.println("Trois Tres Three");
 	}
 	
 	public void once() {
@@ -80,7 +80,7 @@ public class Four {
 		System.out.println("Deux Deux");
 	}
 	public void name() {
-		System.out.print("Quatre");
+		System.out.println("Quatre");
 	}
 }
 
@@ -125,16 +125,28 @@ On the same Three object call thrice.
 
 ### Review Questions:
 
+#### Q5 
+
 ```
 Which class is at the top of the inheritance hierarchy? 
+```
 
-Why is the twice method in the One class poor decomposition? 
+#### Q6 
 
+```
+Imagine the twice method in the One class did not call name() and appeared as the code below. 
+
+	public void twice() {
+		super.twice();
+	}
+
+Why would this version of twice() be poor decomposition? 
+```
+
+#### Q7 
+
+```
 Can Two's thrice method call super.thrice()? Why or why not? 
 ```
 
-	
-
-
-	
 
