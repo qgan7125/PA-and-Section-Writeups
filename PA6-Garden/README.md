@@ -20,9 +20,8 @@ commands like PLANT, PRINT, GROW, and HARVEST from a file and execute those comm
 The garden that you will be implementing will consist of a number of columns and
 rows of plots.  Within each plot there can exist a single plant, which is represented
 with a 5x5 grid of cells. Plants are divided up into three different categories:
-trees, flowers, and vegetables, all of which 
-have unique characteristics.  For example, trees grow up, vegetables grow down, 
-and flowers bloom as they grow.
+trees, flowers, and vegetables, all of which have unique characteristics.  
+For example, trees grow up, vegetables grow down, and flowers bloom as they grow.
 
 ## The Assignment
 
@@ -34,16 +33,17 @@ The rest of the assignment is due Monday March 19th.
 
 * Class inheritance diagram: Create this diagram however you would like
   (draw it by hand, use software, etc.).  You need to create a pdf file
-  of it and submit it to Aropa AND Gradescope.  See 
-  (https://gradescope.com/help#help-center-item-student-scanning)
-  for some suggestions of how to scan in a document with your phone.
-  You will be building on PA6 for PA8 and PA9.  In PA8 and PA9, you
-  will be encouraged to use the model-view-controller pattern.
-  Feel free to look that up ahead of time.  You are not required to
-  know it until we cover it though.
-  * February 28th, the Aropa and Gradescope for the PA6 class inheritance
-  diagram are ready to accept submissions.
-  * During Spring Break the Gradescope submission for PA6 will be posted.
+  of it and submit it to Aropa AND Gradescope.
+    * See (https://gradescope.com/help#help-center-item-student-scanning)
+      for some suggestions of how to scan in a document with your phone
+      if you plan to produce your pdf by taking a picture of it.
+    * You will be building on PA6 for PA8 and PA9.  In PA8 and PA9, you
+      will be encouraged to use the model-view-controller pattern.
+      Feel free to look that up ahead of time.  You are not required to
+      know it until we cover it though.
+  * March 1st 7:30am, the Aropa and Gradescope for the PA6 class inheritance
+    diagram are ready to accept submissions.
+  * During Spring Break the Gradescope submission for the PA6 program will be posted.
  
 * Your main program, which must be named PA6Main.java, will need to accept the name
   of an input file on the command line.
@@ -96,7 +96,8 @@ Tulip        Pine       Lettuce
   For PA6, plants will be represented with ascii characters.  Use the lower
   case version of the first letter of the plant name.  For "Garlic" use 'g',
   for "Daisy" use 'd', etc.
-  * Flowers should start in the middle of the 5x5 plot it is planted in.
+  * Flowers should start in the middle of the 5x5 gird of cells in the
+    plot it is planted in.  Each location in a plot is called a cell.
   * Vegetables should start at the top middle.
   * Trees should start at the bottom middle.
 
@@ -133,7 +134,11 @@ Coconut
   * **The PLANT Command**<br/>
 EXAMPLE USE: *PLANT (0,0) rose*<br/>
 If the PLANT command is read, it should be followed by plot coordinates and the type of Plant to be planted.
-Use this type to plant the correct subclass of plant into the garden at the coordinates read. 
+Use this type to plant the correct subclass of plant into the garden at given plot coordinates.
+The plot coordinates are given as row and column.  Both rows and columns start at 0.
+Rows go down the screen, and columns go across the screen.  Each plot will itself contain 5 cells
+(represented as characters).  There is a restriction that the number of cells across should
+be less than or equal to 80, therefore the most plot columns allowed is 80/5 or 16.
 
   * **The PRINT Command**<br/>
 EXAMPLE USE: *PRINT*<br/>
@@ -197,7 +202,8 @@ Cut all Trees of the specified type. If there are no Trees with that type, do no
 
 Students will design their own plant type and show an example input and output that illustrates it 
 in their README.md file.  This new plant should be different from Vegetable, Flower, and Tree, 
-but still be usable along side them within the garden and be able to PLANT, GROW, and PRINT.
+but still be usable alongside them within the garden and work with the commands
+PLANT, GROW, and PRINT.
 
 * Error Handling
 
