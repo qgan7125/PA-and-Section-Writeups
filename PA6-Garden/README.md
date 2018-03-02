@@ -90,13 +90,14 @@ Lily         Willow     Zucchini
 Rose         Banana     Tomato
 Daisy        Coconut    Yam
 Tulip        Pine       Lettuce
+Sunflower
 ```
 
 * The following are examples of representation arrays for different types of plants.
   For PA6, plants will be represented with ascii characters.  Use the lower
   case version of the first letter of the plant name.  For "Garlic" use 'g',
   for "Daisy" use 'd', etc.
-  * Flowers should start in the middle of the 5x5 gird of cells in the
+  * Flowers should start in the middle of the 5x5 grid of cells in the
     plot it is planted in.  Each location in a plot is called a cell.
   * Vegetables should start at the top middle.
   * Trees should start at the bottom middle.
