@@ -80,7 +80,7 @@ Here is the output for the example:
 The output should be printed to standard out.  See PublicTestCases/
 for more input and output examples.
 
-* The following are they types of specific plants that could be planted:
+* The following are the types of specific plants that could be planted:
 
 ```
 FLOWERS      TREES      VEGETABLES
