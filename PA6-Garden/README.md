@@ -1,4 +1,4 @@
-# PA6-Garden-Key (Status: Posted Feb 28th at 10:30pm)
+# PA6-Garden-Key (Status: Posted Feb 28th at 10:30pm, Clarification on errors March 7 7:30am)
 PA6 key and initial writeup draft.
 
 ## Learning Objectives
@@ -211,7 +211,7 @@ PLANT, GROW, and PRINT.
   * Some of the commands above specify some error handling.
   
   * The garden should never be more than 80 characters across.  If it is print out
-  the message "Too many plot columns."  Think: How many characters across is
+  the message "Too many plot columns." and then exit.  Think: How many characters across is
   each plot?
   
   * Other than the above specified errors, the input can be assumed well formed.
