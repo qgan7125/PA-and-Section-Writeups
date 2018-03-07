@@ -256,7 +256,7 @@ Decomposition
 * Make things as simple as possible.
   * Only use one Scanner instance.
   * Don't use lambda functions or other features in non-standard ways.
-  * Avoid nested loops.
+  * Avoid nested loops unless they would be cleaner when handling a 2D array.
   * Avoid nesting conditionals.
   * Avoid chaining: see the Piazza post for more info
 
