@@ -225,7 +225,7 @@ We recommend the following:
   * A Screen object with a 2D array of characters that each plant can
     print its current representation into.  The Screen object can then print everything
     to standard out. (Hint: what did you do in those drills due before Spring Break?)
-    * **hint:** when copying over a Plants representation array place each cell at:
+    * **hint:** when copying over a Plant's representation array place each cell at:
 ```
      [(Plant's row  * 5) + cell row][(Plant's col * size of plot) + cell col]
 ```
