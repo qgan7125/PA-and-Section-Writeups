@@ -148,6 +148,9 @@ If the PRINT command is read, then the entire garden should be printed to standa
   * **The GROW Command**<br/>
 EXAMPLE USE: *GROW 1*<br/>
 If the GROW command is read, then each Plant should grow the specified number of times as seen in the input command.
+A plant cannot grow out of its plot.  No error will happen,
+but growth should not occur outside the plot boundaries.
+Plots also cannot run into each other.
 
   * **GROW [num] (x,y)**<br/>
 EXAMPLE USE: *GROW 1 (2,3)*<br/>
@@ -161,9 +164,6 @@ Grow only Plants of the specified type num times.
   * **GROW [num] [Plant]**<br/>
 EXAMPLE USE: *GROW 1 flower* <br/>
 Grow only Plants of the specified class num times.
-A plant cannot grow out of its plot.  No error will happen,
-but growth should not occur outside the plot boundaries.
-Plots also cannot run into each other.
 
   * **HARVEST**<br/>
 Remove all Vegetables from the Garden.
