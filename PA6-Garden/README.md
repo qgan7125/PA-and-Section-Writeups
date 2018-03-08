@@ -59,6 +59,8 @@ PRINT
 GROW 1
 print
 ```
+Note that the commands should be case-insensitive.  In other words,
+"print", "PRINT", and "Print" are all equivalent in the input file.
 Here is the output for the example:  
 ```
 > PRINT
