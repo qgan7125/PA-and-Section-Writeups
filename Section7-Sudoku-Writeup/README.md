@@ -100,5 +100,5 @@ the exhaustive search template?
 Q2
 
 ```
-What function completes the pruning? 
+What function executes the pruning? 
 ```
