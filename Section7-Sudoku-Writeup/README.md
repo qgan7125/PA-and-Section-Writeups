@@ -31,31 +31,6 @@ Typically Sudoku puzzles have many squares pre-filled out so that there is only
 one solution possible. When solved by hand, logical elimination is used to fill 
 the squares, however, an exhaustive search can use brute force to find the answer. 
 
-## Warm Up 
-
-Each Sudoku puzzle should have every row, column and subgrid filled in with the 
-values 1-9. No row, column or subgrid should have a digit repeat. To check 
-understanding, practice filling in the puzzle by determining the digit that goes
-in the squares marked with A, B, C and D. 
-
-Use the process of elimination to determine the digit. Check the row, column and 
-subgrid that contains each letter for the values 1-9. 
-
-```
-	2 4 6 | 7 A 8 | 3 1  
-	3     |   9   |     2
-	  9   |     4 | 6   8 
-	_ _ _ | _ _ _ | _ _ _ 
-	4 D 9 | 1 2 3 |      
-	C 6   |     B | 8
-	1   7 |     6 |     4
-	_ _ _ | _ _ _ | _ _ _ 
-	6 7   |     5 | 9     
-	  1 3 | 9     |     7
-	      | 3 4 7 |
-```
-
-
 ## Setup
 
 Go to the course webpage, click resources, and then click on the Section 7 URL. It will be the URL for accepting the github classroom assignment for Section 7.
@@ -78,6 +53,30 @@ Now you are ready to start coding.
 Overview : Implement pieces of an exhaustive search algorithm to complete the code to 
 find a solution to a Sudoku puzzle. Push to enable Travis to check for correctness and
 answer the conceptual questions to show your SL. 
+
+### Warm Up 
+
+Each Sudoku puzzle should have every row, column and subgrid filled in with the 
+values 1-9. No row, column or subgrid should have a digit repeat. To check 
+understanding, practice filling in the puzzle by determining the digit that goes
+in the squares marked with A, B, C and D. 
+
+Use the process of elimination to determine the digit. Check the row, column and 
+subgrid that contains each letter for the values 1-9. 
+
+```
+	2 4 6 | 7 A 8 | 3 1  
+	3     |   9   |     2
+	  9   |     4 | 6   8 
+	_ _ _ | _ _ _ | _ _ _ 
+	4 D 9 | 1 2 3 |      
+	C 6   |     B | 8
+	1   7 |     6 |     4
+	_ _ _ | _ _ _ | _ _ _ 
+	6 7   |     5 | 9     
+	  1 3 | 9     |     7
+	      | 3 4 7 |
+```
 
 ### Part One - Decomposition 
 After importing the section, your section leader will walk the class through the 
