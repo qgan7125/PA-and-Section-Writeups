@@ -42,7 +42,7 @@ the squares, however, an recursive backtracking can use brute force to find the 
 	C 6   |     B | 8
 	1   7 |     6 |     4
 	_ _ _ | _ _ _ | _ _ _ 
-	6 7	 |     5 | 9     
+	6 7   |     5 | 9     
 	  1 3 | 9     |     7
 	      | 3 4 7 |
 ```
