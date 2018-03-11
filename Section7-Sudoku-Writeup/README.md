@@ -37,6 +37,9 @@ the squares, however, an exhaustive search can use brute force to find the answe
 	2 4 6 |     8 |   1  
 	3     |   9   |     2
 	  9   |     4 | 6   8 
+```
++++				+++
+```
 	_ _ _ | _ _ _ | _ _ _ 
 	4   9 | 1 2 3 |      
 	      |       |
