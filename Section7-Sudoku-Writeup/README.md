@@ -8,16 +8,19 @@ for amore complicated problem, solving a Sudoku puzzle.
 Recall the recursive backtracking template: 
 
 ```
- void enumerate( problem params,current decision point, collection of decisions) {
+void enumerate( problem params, current decision point, collection of decisions) {
             
-            if all decisions have been made
-                process this point in search space
-                return
+    if all decisions have been made
+        process this point in search space
+        return
  
-            for all possible local decisions at current decision point
-                make local decision
-                recursively call enumerate to make decision
-	}
+    if decisions made so far lead to feasible solution
+        for all possible feasible local decisions at current decision point
+            make local decision
+            recursively call enumerate to make later decisions
+	    unmake local decision
+		    
+}
 ```
 
 In order to apply recursive backtracking to a more complex problem, we will utilize
