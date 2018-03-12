@@ -49,11 +49,12 @@ the squares, however, an recursive backtracking can use brute force to find the 
 
 ## Setup
 
-Go to the course webpage, click resources, and then click on the Section 7 URL. It will be the URL for accepting the github classroom assignment for Section 7.
+Go to the course webpage, click resources, and then click on the Section 7 URL. It will be 
+the URL to the public start repository in the CS210 repository. Since you are going to clone 
+the main repository, you will not be able to push to GitHub. At the end of section, you will 
+need to upload your .java file to Gradescope for the output to be graded. 
 
 Then do the following:
-
-Click on .travis.yml in github. Edit it to put in your email and commit that change on github. If you do not do this, you will run into issues later with pushing and TravisCI.
 
 Click on the green "Clone or download" button on the right of the web page and copy the provided URL.
 
@@ -67,7 +68,7 @@ Now you are ready to start coding.
 
 ## The Assignment
 Overview : Implement pieces of an recursive backtracking algorithm to complete the code to 
-find a solution to a Sudoku puzzle. Push to enable Travis to check for correctness and
+find a solution to a Sudoku puzzle. Upload to gradescope to check for correctness and
 answer the conceptual questions to show your SL. 
 
 ### Part One - Decomposition 
