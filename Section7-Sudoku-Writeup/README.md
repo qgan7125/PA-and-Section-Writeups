@@ -3,7 +3,7 @@
 ## Introduction 
 The goal of today's section is to develop a deeper understanding of recursive
 backtracking. We will be doing this by examining and coding an recursive backtracking search
-for amore complicated problem, solving a Sudoku puzzle. 
+for a more complicated problem, solving a Sudoku puzzle. 
 
 Recall the recursive backtracking template: 
 
