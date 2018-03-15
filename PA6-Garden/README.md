@@ -51,33 +51,33 @@ The rest of the assignment is due Monday March 19th.
 * The input file will contain all of the garden initialization settings
   and the commands to simulate.  Here is an example input file.
 ```
-rows: 1
-cols: 1
+rows: 1                Unique one      rows: 1
+cols: 1                                cols: 1
 
-PLANT (0,0) banana
-PRINT
-GROW 1
-print
+PLANT (0,0) banana                     PLANT (0,0) Kiwi
+PRINT                                  PRINT
+GROW 1                                 GROW 1
+print                                  print
 ```
 Note that the commands should be case-insensitive.  In other words,
 "print", "PRINT", and "Print" are all equivalent in the input file.
 Here is the output for the example:  
 ```
-> PRINT
-.....
-.....
-.....
-.....
-..b..
+> PRINT               Unique one       > PRINT
+.....                                  .....
+.....                                  .....
+.....                                  ..k..
+.....                                  .....
+..b..                                  .....
 
-> GROW 1
-
-> PRINT
-.....
-.....
-.....
-..b..
-..b..
+> GROW 1                               > GROW 1
+ 
+> PRINT                                > PRINT
+.....                                  .....
+.....                                  .kkk.
+.....                                  .kkk. 
+..b..                                  .kkk.
+..b..                                  .....
 ```
 The output should be printed to standard out.  See PublicTestCases/
 for more input and output examples.
@@ -85,12 +85,12 @@ for more input and output examples.
 * The following are the types of specific plants that could be planted:
 
 ```
-FLOWERS      TREES      VEGETABLES
--------      -----      ----------
-Iris         Oak        Garlic
-Lily         Willow     Zucchini
-Rose         Banana     Tomato
-Daisy        Coconut    Yam
+FLOWERS      TREES      VEGETABLES         FRUIT
+-------      -----      ----------         -----
+Iris         Oak        Garlic             Apple
+Lily         Willow     Zucchini           Honeydew
+Rose         Banana     Tomato             Mango 
+Daisy        Coconut    Yam                Kiwi
 Tulip        Pine       Lettuce
 Sunflower
 ```
